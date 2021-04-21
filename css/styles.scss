@@ -1,7 +1,51 @@
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 body {
 	font-family: sans-serif;
+	line-height: 1.6rem;
+	word-spacing: 0.15rem;
+	margin: 25px;
+	padding: 25px;
 
 	img {
-		width: 100%;
+		width: 50%;
+		display: block;
+	  margin-left: auto;
+	  margin-right: auto;
 	}
+
+.logo {
+	width: 70px;
+	height: auto;
+	margin-left: 450px;
+}
+
+h1, p {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+
+h6 {
+	text-align: left;
+	margin-left: 619px;
+}
+
+.ingredients, .instructions {
+		margin-bottom: 50px;
+		margin-top: 50px;
+		margin-left: 450px;
+}
+
+footer {
+   margin-left: 450px;
+	 color: red;
+}
 }
