@@ -5,7 +5,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: url("/img/new_background.jpg");
+  background: url("img/new_background.jpg");
   font-family: sans-serif;
   line-height: 1.6rem;
   word-spacing: 0.15rem;
