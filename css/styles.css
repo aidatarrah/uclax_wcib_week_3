@@ -5,11 +5,14 @@ html {
   box-sizing: inherit; }
 
 body {
+  background: url("/img/new_background.jpg");
   font-family: sans-serif;
   line-height: 1.6rem;
   word-spacing: 0.15rem;
   margin: 25px;
   padding: 25px; }
+  body .background {
+    width: 100%; }
   body img {
     width: 50%;
     display: block;

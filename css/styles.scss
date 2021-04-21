@@ -6,12 +6,17 @@ html {
 }
 
 body {
+	background: url('/img/new_background.jpg');
 	font-family: sans-serif;
 	line-height: 1.6rem;
 	word-spacing: 0.15rem;
 	margin: 25px;
 	padding: 25px;
 
+
+.background {
+	width: 100%;
+}
 	img {
 		width: 50%;
 		display: block;
